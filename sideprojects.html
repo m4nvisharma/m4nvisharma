@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Manvi Sharma</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Introduction</a></li>
+						<li><a href="aboutme.html" class="active">About Me</a></li>
+						<li><a href="sideprojects.html" class="active">Side Projects</a></li>
+						<li><a href="experiences.html">Experiences</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Side Projects</h1>
+							<span class="image fit"><img src="images/project1.jpg" alt="" /></span>
+							<p>My side projects showcase my problem-solving skills, with accomplishments such as creating both heuristic and backtracking solutions. The Sudoku solver program uses a backtracking algorithm in which the computer iterates through each open space, placing the first available number 1 through 9. As soon as the code interacts with an error, when the number doesn’t fit the requirements, the code moves back one space and chooses a different available number. The algorithm continues until it reaches a solution or exhausts all possibilities.</p>
+							<p>The 2048 generator uses a variety of libraries, the board starting off as an array of 0’s. Once the game is in motion, the game inputs two random numbers, either a 2 or a 4, to begin the game. The player is able to move in any direction; left, right, up, or down. After every move, the board adds another tile at random until the game board is full or the player reaches 2048. THe solver uses a heuristic algorithm to find the best route to win the game; to reach 2938. The game solver measures the situation of the board, and considers what the board would be like if it moved left, right, up or down. For each possible move, it considers where the next random could be put and displays a list of possible outcomes. IT finds the heuristic value, in comparison to a set ‘ideal’ board, for each situation of each move, and averages them out to create a heuristic value for every move. THe board decides to play the move with the highest heuristic value until the board is full or reaches 2048. I am currently working on the Traveling Salesman Problem.</p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
